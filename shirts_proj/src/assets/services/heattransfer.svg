@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0b1226"/>
+      <stop offset="1" stop-color="#020617"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="38%" cy="32%" r="75%">
+      <stop offset="0" stop-color="#fbbf24" stop-opacity="0.18"/>
+      <stop offset="0.45" stop-color="#22c55e" stop-opacity="0.14"/>
+      <stop offset="1" stop-color="#000" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="shirt" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#111827"/>
+      <stop offset="1" stop-color="#050b1b"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1200" height="800" fill="url(#bg)"/>
+  <rect width="1200" height="800" fill="url(#glow)"/>
+
+  <g transform="translate(0 10)">
+    <path d="M410 210
+             C420 180 450 160 480 150
+             L520 130
+             C545 170 570 185 600 185
+             C630 185 655 170 680 130
+             L720 150
+             C750 160 780 180 790 210
+             L845 320
+             L770 360
+             L740 290
+             L740 700
+             C740 730 715 755 685 755
+             L515 755
+             C485 755 460 730 460 700
+             L460 290
+             L430 360
+             L355 320 Z"
+          fill="url(#shirt)" stroke="#94a3b8" stroke-opacity="0.22" stroke-width="3"/>
+
+    <!-- Heat transfer: clean numbers -->
+    <g transform="translate(505 310)" font-family="system-ui, -apple-system, Segoe UI, sans-serif" text-anchor="middle">
+      <text x="95" y="170" font-size="160" font-weight="900" fill="#e5e7eb" opacity="0.92">10</text>
+      <rect x="6" y="200" width="178" height="46" rx="18" fill="#0f172a" fill-opacity="0.9" stroke="#fbbf24" stroke-opacity="0.45" stroke-width="4"/>
+      <text x="95" y="232" font-size="22" font-weight="900" fill="#fbbf24">FLEX</text>
+    </g>
+  </g>
+</svg>
