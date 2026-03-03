@@ -11,7 +11,6 @@ export default function ScrollToHash() {
     }
 
     const id = location.hash.replace("#", "");
-    // Wait a tick for route render
     const t = setTimeout(() => {
       const el = document.getElementById(id);
       if (el) el.scrollIntoView({ behavior: "smooth", block: "start" });
@@ -22,5 +21,3 @@ export default function ScrollToHash() {
 
   return null;
 }
-
-
