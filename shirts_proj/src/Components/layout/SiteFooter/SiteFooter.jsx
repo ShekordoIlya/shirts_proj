@@ -5,7 +5,7 @@ export default function SiteFooter() {
     <footer className={styles.footer}>
       <div className={styles.brand}>eShirts — логотипы на майках</div>
       <div className={styles.contacts}>
-        <span>Телефон: +7 (999) 123‑45‑67</span>
+        <span>Телефон: +375 (29) 775‑56‑69</span>
         <span>Почта: logo@eshirts.ru</span>
         <span>Telegram: @eshirts</span>
         <span>Instagram: @eshirts</span>
@@ -13,4 +13,3 @@ export default function SiteFooter() {
     </footer>
   );
 }
-
